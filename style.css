@@ -1,0 +1,69 @@
+body {
+    height: 100vh;
+    width: 100%;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    background-image: linear-gradient(-225deg, #20E2D7 0%, #F9FEA5 100%);   
+   /* background-image: linear-gradient(to top, #dfe9f3 0%, white 100%); */
+}
+
+.logo img {
+    max-height: 40vh;
+}
+
+.window{
+    margin: 300px 0;
+    display: none;
+} 
+.arrow {
+    display: grid;
+    text-align: center;
+}
+.arrow i {
+    align-self: baseline;
+}
+.window a {
+    text-decoration: none;
+    color: #ff4e50;
+}
+
+i {
+    font-size: 60px;
+}
+
+.team_page {
+    background-image: linear-gradient(to right, #f9d423 0%, #ff4e50 100%);
+    height: 100vh;
+    width: 100%;
+}
+
+.contact_page {
+    background-image: linear-gradient(-225deg, #20E2D7 0%, #F9FEA5 100%);    height: 100vh;
+    width: 100%;
+}
+
+.video_page_wrapper {
+    background-image: linear-gradient(to right, #f9d423 0%, #ff4e50 100%);
+    height: 100vh;
+    width: 100%;
+}
+.video_page {
+    display: grid;
+    margin: 5%;
+    position: absolute;
+}
+
+.video1 .video2 {
+    height: 40vh;
+    width: 100%;
+}
+
+.video2 {
+    align-content: flex-end;
+    margin-top: 5%;
+}
